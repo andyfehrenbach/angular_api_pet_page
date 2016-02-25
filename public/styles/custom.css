@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+}
+nav {
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 7vh;
+}
+nav li{
+  display: block;
+  margin: 0;
+  padding: 1em .25em;
+}
+
+
+
+nav li a:hover {
+  padding: 0 5px 3px 0;
+  border-bottom: 3px solid #222;
+}
+
+nav ul {
+  margin: 0;
+  font-size: 110%;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  transition:all .1s;
+}
+h4{
+  display: inline;
+}
+
+main {
+  height: 88vh;
+  background-color: #ddd;
+  color: #fff;
+text-shadow: -1px 1px 6px #000;
+}
+
+a:hover {
+  color: #222;
+}
+.foot {
+  margin: 0em .5em;
+   color: grey;
+   height: 5vh;
+}
+
+h5{
+  padding-right: .25em;
+}
+
+h2 {
+  padding-left: .5em;
+
+}
+
+h2, h5 {
+  margin-bottom: 4rem;
+}
+
+.jumbo {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.mike {
+  background: url("/images/mike.jpg"), no-repeat center center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.donna {
+  background: url("/images/donna.jpg"), no-repeat center center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.harvey {
+  background: url("/images/harvey.jpg"), no-repeat center right;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.cast {
+  background: url("/images/cast.jpg"), no-repeat center center;
+  background-color: #ccc;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.logo {
+  padding-left: 2em;
+}
