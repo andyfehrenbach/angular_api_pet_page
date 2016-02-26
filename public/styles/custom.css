@@ -1,10 +1,13 @@
 body {
-  height: 100vh;
+  /*height: 100vh;*/
 }
 nav {
+  background: lightblue;
   text-transform: uppercase;
   font-weight: bold;
   height: 7vh;
+
+  position: fixed;
 }
 nav li{
   display: block;
@@ -37,10 +40,8 @@ h4{
 }
 
 main {
-  height: 88vh;
-  background-color: #ddd;
-  color: #fff;
-text-shadow: -1px 1px 6px #000;
+  /*height: 88vh;*/
+
 }
 
 a:hover {
@@ -65,32 +66,13 @@ h2, h5 {
   margin-bottom: 4rem;
 }
 
-.jumbo {
+/*.jumbo {
   display: flex;
   align-items: flex-end;
-  height: 100%;
-}
+  /*height: 100%;*/
+/*}*/
 
-.mike {
-  background: url("/images/mike.jpg"), no-repeat center center;
-  background-color: grey;
-  background-blend-mode: multiply;
-  background-size: cover;
-}
 
-.donna {
-  background: url("/images/donna.jpg"), no-repeat center center;
-  background-color: grey;
-  background-blend-mode: multiply;
-  background-size: cover;
-}
-
-.harvey {
-  background: url("/images/harvey.jpg"), no-repeat center right;
-  background-color: grey;
-  background-blend-mode: multiply;
-  background-size: cover;
-}
 
 .cast {
   background: url("/images/cast.jpg"), no-repeat center center;
@@ -101,4 +83,22 @@ h2, h5 {
 
 .logo {
   padding-left: 2em;
+}
+
+.frame {
+
+  width: 80%;
+  height: 100%;
+  z-index: .25;
+}
+
+.frame img {
+  width: 100%;
+  overflow: hidden;
+}
+.five.columns {
+  margin-top: 5em;
+  overflow: hidden;
+  color:#aaa;
+  z-index: .25;
 }

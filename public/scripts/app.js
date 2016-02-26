@@ -3,19 +3,20 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(['$routeProvider', function($routeProvider) {
 
     $routeProvider
-        .when('/home', {
-            templateUrl: '/views/templates/home.html',
+
+        .when('/cat', {
+            templateUrl: '/views/templates/cat.html',
+            controller: 'catController'
         })
-        .when('/mike', {
-            templateUrl: '/views/templates/mike.html',
+        .when('/rabbit', {
+            templateUrl: '/views/templates/rabbit.html',
+            controller: 'rabbitController'
         })
-        .when('/harvey', {
-            templateUrl: '/views/templates/harvey.html'
-        })
-        .when('/donna', {
-            templateUrl: '/views/templates/donna.html'
+        .when('/dog', {
+            templateUrl: '/views/templates/dog.html',
+            controller: 'dogController'
         })
         .otherwise({
-            redirectTo: 'home'
+            redirectTo: 'dog'
         });
 }]);
